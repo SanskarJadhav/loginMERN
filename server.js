@@ -8,7 +8,7 @@ const cors = require("cors");
 const app = express();
 
 // Connect to MongoDB cloud at the specified database
-mongoose.connect("mongodb+srv://sanskarjadhav:ISTPiWPyBEskUMIQ@projects.0wab4zm.mongodb.net/login?retryWrites=true&w=majority&appName=Projects");
+mongoose.connect("mongodb+srv://sanskarjadhav:*********@projects.0wab4zm.mongodb.net/login?retryWrites=true&w=majority&appName=Projects");
 
 // Import the MongoDB model for handling sign up data
 const collection = require('./model/Signupschema');
